@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  background-color: var(--bg);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+a {
+  color: var(--color);
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--color);
+  border-radius: 4px;
+
+  &:hover {
+    background: var(--color);
+    cursor: pointer;
+  }
+}
+
+p,
+a,
+li,
+h1,
+h2,
+h3 {
+  color: var(--color);
+}
+
+input {
+  font-family: var(--fontFamily);
+  color: var(--color);
+  background-color: var(--bg);
+}
+
+.app {
+  &-fonted {
+    font-family: var(--fontFamily);
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .app {
+    margin-inline: 10%;
+
+    &-fonted {
+      margin-inline: 10%;
+      font-family: var(--fontFamily);
+    }
+  }
+}

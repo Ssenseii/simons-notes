@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Simons-Notes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Components
 
-## Available Scripts
+Header: Logo (name) - Menu Button - Actions Bar 
+ 
+SideBar: SearchBar with filter - Tags Menu - Titles Side Bar
 
-In the project directory, you can run:
+Main: Posts interchanger.
 
-### `npm start`
+## Whata we working with?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Markdown-to-JSX: for posts (not anymore)
+SCSS: Massive Styling
+Animations: Vanilla
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features Hell
 
-### `npm test`
+Accent on Active
+Quadruple Theme?
+Command Line?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Functions
 
-### `npm run build`
+- Logo small animation, set POST0 ------------
+- Create a "Post0" for introduction. ---------
+- Home button must lead to SIMONSLAB ----------
+- Email miust open a courier service -------------
+- Font button must change the global font to a readable one
+- Theme (you can guess) 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Posts
+  + started post is Post00 -----------------
+  + import based on the clicked post ---------------
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Search bar: 
+  + on type: remove those which do not contain the word being typed ---------------------
+  + on active: style change. -----------------------
+  + Search by date, by name, by tag ------------------------
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Filter button:
+  + Default: all filters selected ------------------------
+  + Active Filter: Only posts with the tag on them  -------------------
 
-### `npm run eject`
+- Array of all the posts in The posts folder ---------------------
+- Date conversion function (no need for now)
+- Menu Button must be filled and animated when active and clicked
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- for tomorrow -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## For tomorrow
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  - add a lazy loader
+  - Create Documentation
+  - Optimize

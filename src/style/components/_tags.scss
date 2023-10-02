@@ -1,0 +1,26 @@
+.tag{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+
+  &__checkbox{
+    position: relative;
+    width: 24px;
+    height: 24px;
+    
+    svg{
+      position: absolute;
+      fill: var(--color);
+
+      rect{
+        stroke: var(--color);
+      }
+
+      .checkmark{
+        transform: translateX(3px);
+        fill: var(--bg);
+        stroke: none;
+      }
+    }
+  }
+}
