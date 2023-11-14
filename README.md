@@ -26,8 +26,8 @@ Command Line?
 - Create a "Post0" for introduction. ---------
 - Home button must lead to SIMONSLAB ----------
 - Email miust open a courier service -------------
-- Font button must change the global font to a readable one
-- Theme (you can guess) 
+- Font button must change the global font to a readable one ---------------------
+- Theme (you can guess) ------------------------
 
 - Posts
   + started post is Post00 -----------------
@@ -43,14 +43,12 @@ Command Line?
   + Active Filter: Only posts with the tag on them  -------------------
 
 - Array of all the posts in The posts folder ---------------------
-- Date conversion function (no need for now)
-- Menu Button must be filled and animated when active and clicked
+- Date conversion function 
+- Menu Button must be filled and animated when active and clicked --------------------
 
 
 <!-- for tomorrow -->
 
 ## For tomorrow
 
-  - add a lazy loader
-  - Create Documentation
-  - Optimize
+  - add a lazy loader --------

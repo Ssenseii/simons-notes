@@ -1,7 +1,6 @@
 import PostList from "../../constants/post-data";
 
 const MenuPosts = ({ handlePostName, filter, toggleMenu, setToggleMenu }) => {
-
   /// First Filter By Tags
   const tagFilteredList = PostList.filter((element) => {
     const selectedTags = [
@@ -34,7 +33,7 @@ const MenuPosts = ({ handlePostName, filter, toggleMenu, setToggleMenu }) => {
             title={`${Post.title}`}
             onClick={() => {
               handlePostName("Post" + Post.id);
-              if(window.innerWidth <= 768){
+              if (window.innerWidth <= 768) {
                 setToggleMenu(!toggleMenu);
               }
             }}

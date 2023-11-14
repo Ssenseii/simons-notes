@@ -1,6 +1,7 @@
 .main {
   padding-inline: 24px;
   overflow: scroll;
+  width: 100%;
 
   .post {
     display: flex;
@@ -29,8 +30,30 @@
       }
 
       p {
-        text-align: justify;
-        text-indent: 4rem;
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+
+      a {
+        opacity: 0.8;
+        color: var(--accent);
+        margin-left: 1rem;
+
+        &:hover{
+          opacity: 1;
+          text-decoration: underline;
+        }
+        
+      }
+
+      ul, ol{
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+
+        li{
+          margin-bottom: 1rem;
+
+        }
       }
     }
   }
@@ -39,7 +62,7 @@
 
 @media screen and (min-width: 768px) {
   .main {
-    height: 70vh; /// calculate (80vh - the search bar height)
+    height: 90%; /// calculate (80vh - the search bar height)
     min-width: 780px;
     border: 2px solid var(--color);
     border-top-right-radius: 8px;
@@ -56,7 +79,7 @@
 
       article {
         
-        h2 {
+        h2, a{
           margin-left: 4rem;
           margin-bottom: 2rem;
         }
@@ -67,6 +90,13 @@
           line-height: 1.0625rem;
           padding-inline-end: 10%;
           line-height: 1.5;
+
+          text-indent: 4rem;
+          text-align: left;
+        }
+
+        ul, ol{
+          margin-left: 6rem;
         }
       }
     }

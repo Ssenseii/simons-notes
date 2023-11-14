@@ -1,7 +1,7 @@
 import PostList from "../constants/post-data";
 import Post from "../Components/Main/Post";
 
-const Post2 = () => {
+const Post0 = () => {
   return (
     <div className="post">
       <Post
@@ -11,16 +11,39 @@ const Post2 = () => {
         year={PostList[2].year}
         tag={PostList[2].tag}
       >
-        <h2>Heading #2</h2>
+        <h2>Welcome to my Notes</h2>
+
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-          saepe impedit? Enim laudantium, distinctio voluptates laboriosam
-          aspernatur atque non dolor inventore nostrum dicta? Ut enim ad
-          repudiandae eos iure et?
+          This is a space where I share my thoughts on a variety of topics,
+          including personal reflections, technical insights, and design
+          musings. I'm a curious person who loves to learn and explore new
+          ideas, and I hope that my writing will spark your own curiosity and
+          inspire you to think in new ways.
         </p>
+
+        <p>
+          I'm drawn to a wide range of subjects, but some of my favorite themes
+          to write about include:
+        </p>
+
+        <ul>
+          <li>
+            The creative process behind scalable Solutions to problems I run
+            into on a daily basis
+          </li>
+          <li>
+            The beauty and complexity of the techncial world i.e Shaders &
+            Graphics
+          </li>
+          <li>Personal Growth and Developement</li>
+        </ul>
+
+        <p>You're welcome to read my notes.</p>
+        <p>Sincerely,</p>
+        <p>Simon</p>
       </Post>
     </div>
   );
 };
 
-export default Post2;
+export default Post0;
