@@ -7,9 +7,9 @@ const Sidebar = ({handlePostName, setToggleMenu, toggleMenu}) => {
   
   const [filter, setFilter] = useState({
     searchTerm: "",
-    technical: true,
-    design: true,
-    personal: true,
+    technical: false,
+    design: false,
+    personal: false,
   });
   const [toggleFilters, setToggleFilters] = useState(false);
   

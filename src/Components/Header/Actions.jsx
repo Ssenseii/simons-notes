@@ -21,7 +21,6 @@ const Actions = ({ toggleFont, setToggleFont, darkMode, setDarkMode }) => {
         className="header__actions-action"
         onClick={() => {
           setToggleFont(!toggleFont);
-          console.log(toggleFont);
         }}
       >
         {Font}
@@ -30,7 +29,6 @@ const Actions = ({ toggleFont, setToggleFont, darkMode, setDarkMode }) => {
         title={"TOGGLE THEME"}
         className="header__actions-action"
         onClick={() => {
-          console.log(darkMode);
           setDarkMode(!darkMode);
         }}
       >

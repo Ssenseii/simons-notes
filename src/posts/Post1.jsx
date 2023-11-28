@@ -6,9 +6,7 @@ const Post0 = () => {
     <div className="post">
       <Post
         title={PostList[1].title}
-        day={PostList[1].day}
-        month={PostList[1].month}
-        year={PostList[1].year}
+        date={PostList[1].date}
         tag={PostList[1].tag}
       >
         <h2>The beauty of design systems</h2>
