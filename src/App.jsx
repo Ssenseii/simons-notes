@@ -25,11 +25,11 @@ function App() {
         if (darkMode) {
             document.documentElement.style.setProperty("--color", "#D11E30");
             document.documentElement.style.setProperty("--bg", "#011925");
-            document.documentElement.style.setProperty("--bg", "#011925");
+            document.documentElement.style.setProperty("--accent", "#5da8c9");
         } else {
             document.documentElement.style.setProperty("--bg", "#ffffff");
             document.documentElement.style.setProperty("--color", "#000000");
-            document.documentElement.style.setProperty("--color", "#000000");
+            document.documentElement.style.setProperty("--accent", "#f50032");
         }
 
         return () => {
