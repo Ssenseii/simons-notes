@@ -25,6 +25,7 @@ const PostList = [
   { id: 1, date: "10-10-23", title: "DESIGN SYSTEMS", tag: "p" },
   { id: 2, date: "29-10-23", title: "SHADER STUDY", tag: "t" },
   { id: 3, date: "10-11-23", title: "BOOGIE2988", tag: "p" },
+  { id: 4, date: "30-11-23", title: "My Portfolio", tag: "d" },
 ];
 
 

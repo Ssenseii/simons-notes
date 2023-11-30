@@ -24,6 +24,7 @@ import Post0 from '../posts/Post0'
 import Post1 from '../posts/Post1'
 import Post2 from '../posts/Post2'
 import Post3 from '../posts/Post3'
+import Post4 from '../posts/Post4'
 
 const Main = () => {
 
@@ -35,6 +36,7 @@ const Main = () => {
                     <Route path="/post1" element={<Post1 />}></Route>
                     <Route path="/post2" element={<Post2 />}></Route>
                     <Route path="/post3" element={<Post3 />}></Route>
+                    <Route path="/post4" element={<Post4 />}></Route>
                 </Routes>
 
         </main>
