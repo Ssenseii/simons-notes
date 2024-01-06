@@ -43,12 +43,14 @@ Command Line?
   + Active Filter: Only posts with the tag on them  -------------------
 
 - Array of all the posts in The posts folder ---------------------
-- Date conversion function 
+- Date conversion function --------------------
 - Menu Button must be filled and animated when active and clicked --------------------
 
+- fix search bar corruption 
 
-<!-- for tomorrow -->
+## How to Use
 
-## For tomorrow
-
-  - add a lazy loader --------
+- Create PostX.jsx in the posts folder.
+- Add its details in post-data.js. 
+- Import it in the Main.jsx.
+- Copy from Post0.jsx and change accordingly.

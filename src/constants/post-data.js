@@ -27,6 +27,7 @@ const PostList = [
   { id: 3, date: "10-11-23", title: "BOOGIE2988", tag: "p" },
   { id: 4, date: "30-11-23", title: "My Portfolio", tag: "d" },
   { id: 5, date: "01-12-23", title: "CPlusPlus", tag: "t" },
+  { id: 6, date: "06-01-24", title: "Laravel Job", tag: "p" },
 ];
 
 
