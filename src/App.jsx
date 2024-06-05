@@ -23,9 +23,12 @@ function App() {
         });
 
         if (darkMode) {
-            document.documentElement.style.setProperty("--color", "#D11E30");
-            document.documentElement.style.setProperty("--bg", "#011925");
-            document.documentElement.style.setProperty("--accent", "#5da8c9");
+            // document.documentElement.style.setProperty("--color", "#D11E30");
+            // document.documentElement.style.setProperty("--bg", "#011925");
+            // document.documentElement.style.setProperty("--accent", "#5da8c9");
+            document.documentElement.style.setProperty("--color", "#f5f8fb");
+            document.documentElement.style.setProperty("--bg", "#0c0f1d");
+            document.documentElement.style.setProperty("--accent", "#29a1c8");
         } else {
             document.documentElement.style.setProperty("--bg", "#ffffff");
             document.documentElement.style.setProperty("--color", "#000000");

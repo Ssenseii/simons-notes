@@ -37,6 +37,7 @@
         span {
           font-weight: 800;
         }
+
       }
 
       a {
@@ -104,6 +105,14 @@
 
           text-indent: 4rem;
           text-align: left;
+
+          
+        a{
+          display: inline;
+          text-align: start;
+          margin: 0;
+        }
+
         }
 
         a{

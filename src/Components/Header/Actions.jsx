@@ -8,7 +8,7 @@ const Actions = ({ toggleFont, setToggleFont, darkMode, setDarkMode }) => {
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://simonslab.vercel.app/"
+          href="https://simons-portfolio.vercel.app/"
         >
           {Home}
         </a>
